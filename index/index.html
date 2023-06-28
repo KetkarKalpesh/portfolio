@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kalpesh Ketkar - Salesforce Developer</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url("background-image.jpg");
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+	  font-family: sans-serif;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding: 20px;
+    }
+	
+	.profile-pic img {
+	  width: 150px;
+	  height: 150px;
+	  border-radius: 50%;
+	  margin-bottom: 10px;
+	}
+
+    .profile-pic {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+	  border-width: 5px;
+	  border-radius: 50%;
+    }
+
+    .profile-pic img {
+      width: 150px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    h1{
+		font-weight: 800;
+		font-size: xxx-large;
+		font-family: cursive;
+		margin: 5px 0;
+	}
+
+	h2 {
+      margin: 5px 0;
+      font-weight: 500;
+	  font-family: cursive;
+    }
+	
+	p {
+		font-family: cursive;
+	}
+
+    .badges {
+      margin-bottom: 20px;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .social-icons a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #555;
+      transition: background-color 0.3s;
+    }
+
+    .social-icons a:hover {
+      background-color: #777;
+    }
+
+    .social-icons img {
+      width: 20px;
+      height: 20px;
+    }
+
+    .section {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 40px;
+      margin-bottom: 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 28px;
+      font-weight: 500;
+    }
+
+    .certificates {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+
+    .certificate-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: #555;
+      transition: background-color 0.3s;
+    }
+
+    .certificate-icon:hover {
+      background-color: #777;
+    }
+
+    .certificate-icon img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .projects {
+      text-align: center;
+    }
+
+    .project-item {
+      margin-bottom: 20px;
+    }
+
+    .project-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    .project-description {
+      font-size: 14px;
+    }
+	
+	.typing-effect {
+	  overflow: hidden; /* Ensures the content is not revealed until the animation */
+	  border-right: .15em solid orange; /* The typwriter cursor */
+	  white-space: nowrap; /* Keeps the content on a single line */
+	  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	  letter-spacing: .15em; /* Adjust as needed */
+	  animation: 
+		typing 5s steps(40, end),
+		blink-caret .50s step-end infinite;
+	
+	}
+	
+	@keyframes typing {
+	  from { width: 0 }
+	  to { width: 100% }
+	}
+
+	/* The typewriter cursor effect */
+	@keyframes blink-caret {
+	  from, to { border-color: transparent }
+	  50% { border-color: orange; }
+	}
+	
+	@keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+	
+  </style>
+</head>
+<body>
+  <header>
+    <div class="profile-pic">
+      <img src="profile-pic.jpg" alt="Profile Picture">
+    </div>
+    <h1>Kalpesh Ketkar</h1>
+    <h2 class="typing-effect">Salesforce Developer</h2>
+    <div class="badges">
+      <p>2X Salesforce Certified</p>
+      <p>Salesforce Double Star Ranger</p>
+      <p>23X Superbadges</p>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/kalpeshketkar" target="_blank">
+        <img src="linkedin-icon.png" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/KetkarKalpesh" target="_blank">
+        <img src="github-icon.png" alt="GitHub">
+      </a>
+	  <a href="https://medium.com/@kalpeshketkar1001" target="_blank">
+        <img src="medium-icon.png" alt="Medium">
+      </a>
+      <a href="https://trailblazer.me/id/kalpeshketkar" target="_blank">
+        <img src="trailhead-icon.png" alt="Trailhead">
+      </a>
+	  <a href="https://drive.google.com/file/d/1Drf18wPCRdB07i1ePoYW7jNJRRlESYu6/view?usp=sharing" target="_blank">
+        <img src="resume-icon.png" alt="Medium">
+      </a>
+    </div>
+	<footer>
+    <p>&copy; 2023 Kalpesh Ketkar | All rights reserved</p>
+  </footer>
+</body>
+</html>
